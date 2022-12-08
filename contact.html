@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="index.html" class="logo"><span>S</span>hubham<span>V</span>enture</a>
+    
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#service">Service</a>
+            <a href="about.html">About Us</a>
+            <a href="#gallery">Gallery</a>
+            <!--<a href="#price">price</a>-->
+            <!-- <a href="#review">review</a> -->
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+        <h1 class="heading"><span> Contact </span> Us</h1>
+
+        
+<section class="contact">
+
+    <div class="image">
+        <img src="images/calling.webp" alt="">
+    </div>
+    
+    <form action="" onsubmit=" sendEmail(); reset(); return false;">
+    
+        <div class="inputBox">
+            <input type="text" id="name" placeholder="Name" required >
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="inputBox">
+            <input type="number" id="number" placeholder="Number" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+        </div>
+        <textarea name="" placeholder="your message" id="message" cols="30" rows="10" required ></textarea>
+        <input type="submit" value="send message" class="btn">
+    
+    </form>
+    
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> jogeshwari </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> goregaon </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> navi mumbai </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> andheri </a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#service"> <i class="fas fa-arrow-right"></i> service </a>
+                <a href="about.html"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#gallary"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <!-- <a href="#"> <i class="fas fa-arrow-right"></i> price </a> -->
+                <a href="#review"> <i class="fas fa-arrow-right"></i> reivew </a>
+                <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="sms: 7000525453"> <i class="fas fa-phone"></i> 7000525453 </a>
+                <a href="callto: 9039295164"> <i class="fas fa-phone"></i> 9039295164 </a>
+                
+                <a href="mailto: shubhan777@gmail.com"> <i class="fas fa-envelope"></i> shubhan777@gmail.com </a>
+                <!-- <a href="#"> <i class="fas fa-envelope"></i> anasshaikh@gmail.com </a> -->
+                <a href="https://maps.app.goo.gl/RVFomTcYpfo9Q8Pm6" target="_blank"> <i class="fas fa-map-marker-alt"></i> Satna M.P. India 485001 </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://instagram.com/shubhamventure?igshid=YmMyMTA2M2Y=" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-youtube"></i> Youtube </a>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> Created by <span>Mr. Yadvendra </span> | all rights reserved </div>
+    
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+
+<script src="../Home/js/script.js"></script>
+
+</body>
+</html>
